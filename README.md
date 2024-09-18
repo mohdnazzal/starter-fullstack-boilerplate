@@ -24,10 +24,11 @@ To make it work, **both the frontend and backend servers need to be running simu
 - **ExpressJS**: Web framework for NodeJS.
 
 
-###Make sure both servers are running for the full stack application to work.
+Make sure both servers are running for the full stack application to work.
 
-###Note for Users
-####This is a simple learner boilerplate to help beginners get started with full stack development. Both the frontend and backend must be running simultaneously to see the application working properly.
+Note for Users
+This is a straightforward boilerplate to assist beginners in getting started with full stack development. Ensure that both the frontend and backend servers are running simultaneously to see the application in action.
+
 
 Happy coding!
 
