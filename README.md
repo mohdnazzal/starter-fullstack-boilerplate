@@ -59,7 +59,7 @@ client/
 ├── package.json          # Dependencies and scripts for the frontend
 ├── README.md             # Documentation file (this one!)
 ├── vite.config.js        # Vite configuration for fast builds and hot reloads
-
+plaintext```
 ### Frontend (`client`)
 ```plaintext
 server/
