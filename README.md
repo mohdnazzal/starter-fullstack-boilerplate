@@ -66,7 +66,7 @@ client/
 ├── README.md             # Documentation file (this one!)
 ├── vite.config.js        # Vite configuration for fast builds and hot reloads
 
-### Frontend (`client`)
+### Backend (`server`)
 ```plaintext
 server/
 │
