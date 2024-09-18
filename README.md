@@ -59,7 +59,7 @@ client/
 ├── package.json          # Dependencies and scripts for the frontend
 ├── README.md             # Documentation file (this one!)
 ├── vite.config.js        # Vite configuration for fast builds and hot reloads
-plaintext```
+
 ### Frontend (`client`)
 ```plaintext
 server/
@@ -77,8 +77,6 @@ server/
 ├── package-lock.json         # Lock file for npm dependencies
 ├── package.json              # Dependencies and scripts for the backend
 ├── server.js                 # Main backend server file with ExpressJS setup
-
-
 
 ##Make sure both servers are running for the full stack application to work.
 
