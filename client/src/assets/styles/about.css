@@ -1,0 +1,10 @@
+/* Style for images with the class 'mknimage' */
+.mknimage {
+    border-radius: 50px;  /* Makes the corners of the image rounded */
+    border-width: 5px;    /* Sets the width of the border around the image */
+}
+
+/* Style for social links container with the class 'about-social' */
+.about-social > a {
+    display: block;  /* Makes each social link take up the full width of its container */
+}

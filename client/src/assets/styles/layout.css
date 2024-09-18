@@ -1,0 +1,63 @@
+/* Style for the navigation bar container */
+.nav-size {
+    width: 100%;   /* Sets the width to full width of the container */
+    height: 65px;  /* Sets the height of the navigation bar */
+}
+
+/* Background color for the navigation bar */
+.navbar-bg-color {
+    background-color: #f6f6f6; /* Light grey background color for the navbar */
+}
+
+/* Font color settings for the navbar links */
+.navbar-font-color {
+    --bs-navbar-color: #2e2e2e; /* Default color for navbar text */
+    --bs-navbar-active-color: #2e2e2e; /* Color for active navbar items */
+    --bs-navbar-hover-color: #2e2e2e; /* Color for navbar items on hover */
+}
+
+/* Style for the navigation bar collapse (mobile view) */
+.navbar-collapse {
+    background-color: transparent; /* Transparent background when collapsed */
+    justify-content: center; /* Centers the content horizontally */
+}
+
+/* Style for navigation links with a custom underline effect */
+.nav-link.textdecor {
+    position: relative; /* Allows for absolute positioning of the underline */
+    text-decoration: none; /* Removes the default underline from links */
+    font-weight: 500; /* Sets font weight for the links */
+}
+
+/* Custom underline effect for navigation links */
+.nav-link.textdecor::after {
+    content: ''; /* Creates an empty element for the underline */
+    position: absolute; /* Positions the underline absolutely within the link */
+    left: 0; /* Aligns the underline to the left edge of the link */
+    bottom: 0; /* Aligns the underline to the bottom of the link */
+    width: 0; /* Initial width of the underline (hidden) */
+    height: 2px; /* Sets the height of the underline */
+    background-color: currentColor; /* Matches the underline color to the text color */
+    transition: width 0.3s ease-in-out; /* Smoothly animates the width change */
+}
+
+/* Expands the underline on hover */
+.nav-link.textdecor:hover::after {
+    width: 100%; /* Expands the underline to full width on hover */
+}
+
+/* Background color and text color for the footer */
+.footer-bg-color {
+    background-color: #2f3033; /* Dark background color for the footer */
+    color: #EEEEEE; /* Light text color for the footer */
+}
+
+/* White text color for footer links */
+.footer-white-color {
+    color: #EEEEEE; /* Light text color */
+}
+
+/* Changes text color on hover for footer links */
+.footer-white-color:hover {
+    color: #ffffff; /* Changes text color to white on hover */
+}

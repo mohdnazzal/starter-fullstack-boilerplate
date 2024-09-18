@@ -1,0 +1,5 @@
+/* Style for the 404 error page (when a page is not found) */
+.error404 {
+    margin: auto; /* Centers the error message horizontally and vertically within its container */
+  }
+  
