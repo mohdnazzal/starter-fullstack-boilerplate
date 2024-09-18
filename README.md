@@ -23,11 +23,17 @@ To make it work, **both the frontend and backend servers need to be running simu
 - **Serve-favicon**: Middleware to serve a favicon.
 - **ExpressJS**: Web framework for NodeJS.
 
+
+###Make sure both servers are running for the full stack application to work.
+
+###Note for Users
+####This is a simple learner boilerplate to help beginners get started with full stack development. Both the frontend and backend must be running simultaneously to see the application working properly.
+
+Happy coding!
+
 ---
 
 ## Folder Structure
-
-### Frontend (`client`)
 
 ```plaintext
 client/
@@ -77,10 +83,3 @@ server/
 ├── package-lock.json         # Lock file for npm dependencies
 ├── package.json              # Dependencies and scripts for the backend
 ├── server.js                 # Main backend server file with ExpressJS setup
-
-##Make sure both servers are running for the full stack application to work.
-
-##Note for Users
-###This is a simple learner boilerplate to help beginners get started with full stack development. Both the frontend and backend must be running simultaneously to see the application working properly.
-
-Happy coding!
